@@ -15,6 +15,10 @@
 		76236DC22460FA5F001F270C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76236DC02460FA5F001F270C /* LaunchScreen.storyboard */; };
 		76236DCD2460FA5F001F270C /* SellFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236DCC2460FA5F001F270C /* SellFinalProjectTests.swift */; };
 		76236DD82460FA5F001F270C /* SellFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236DD72460FA5F001F270C /* SellFinalProjectUITests.swift */; };
+		76236DE724611524001F270C /* ViewControllerTab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236DE624611524001F270C /* ViewControllerTab1.swift */; };
+		76236DE924611715001F270C /* flavor in Resources */ = {isa = PBXBuildFile; fileRef = 76236DE824611715001F270C /* flavor */; };
+		76236DEB246117EE001F270C /* ViewControllerTab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236DEA246117EE001F270C /* ViewControllerTab3.swift */; };
+		76236DED2461198A001F270C /* ViewControllerTab4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236DEC2461198A001F270C /* ViewControllerTab4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,11 @@
 		76236DD32460FA5F001F270C /* SellFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SellFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76236DD72460FA5F001F270C /* SellFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellFinalProjectUITests.swift; sourceTree = "<group>"; };
 		76236DD92460FA5F001F270C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76236DE524610F26001F270C /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-1.jpg"; path = "../../../images-1.jpg"; sourceTree = "<group>"; };
+		76236DE624611524001F270C /* ViewControllerTab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTab1.swift; sourceTree = "<group>"; };
+		76236DE824611715001F270C /* flavor */ = {isa = PBXFileReference; lastKnownFileType = file; name = flavor; path = ../../../flavor; sourceTree = "<group>"; };
+		76236DEA246117EE001F270C /* ViewControllerTab3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTab3.swift; sourceTree = "<group>"; };
+		76236DEC2461198A001F270C /* ViewControllerTab4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTab4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +112,14 @@
 				76236DB72460FA5E001F270C /* SceneDelegate.swift */,
 				76236DB92460FA5E001F270C /* ViewController.swift */,
 				76236DBB2460FA5E001F270C /* Main.storyboard */,
+				76236DEC2461198A001F270C /* ViewControllerTab4.swift */,
+				76236DEA246117EE001F270C /* ViewControllerTab3.swift */,
+				76236DE624611524001F270C /* ViewControllerTab1.swift */,
 				76236DBE2460FA5F001F270C /* Assets.xcassets */,
 				76236DC02460FA5F001F270C /* LaunchScreen.storyboard */,
 				76236DC32460FA5F001F270C /* Info.plist */,
+				76236DE524610F26001F270C /* images-1.jpg */,
+				76236DE824611715001F270C /* flavor */,
 			);
 			path = SellFinalProject;
 			sourceTree = "<group>";
@@ -235,6 +249,7 @@
 				76236DC22460FA5F001F270C /* LaunchScreen.storyboard in Resources */,
 				76236DBF2460FA5F001F270C /* Assets.xcassets in Resources */,
 				76236DBD2460FA5E001F270C /* Main.storyboard in Resources */,
+				76236DE924611715001F270C /* flavor in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76236DBA2460FA5E001F270C /* ViewController.swift in Sources */,
+				76236DED2461198A001F270C /* ViewControllerTab4.swift in Sources */,
+				76236DEB246117EE001F270C /* ViewControllerTab3.swift in Sources */,
 				76236DB62460FA5E001F270C /* AppDelegate.swift in Sources */,
+				76236DE724611524001F270C /* ViewControllerTab1.swift in Sources */,
 				76236DB82460FA5E001F270C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
